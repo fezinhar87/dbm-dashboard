@@ -11,7 +11,7 @@ i see that people want it
 # REMINDERS
 1. If your planning to put this on a VPS then
 # ONLY KEEP PORT 3001 ON LOCALHOST
-If you ask why, then<br>
-Port 3001 is the port that the dbm_remote thing will run on, it contains endpoints to ban, kick, and alot of things that could destroy the bots servers in.
+1. If you ask why, then
+1. Port 3001 is the port that the dbm_remote thing will run on, it contains endpoints to ban, kick, and alot of things that could destroy the bots servers in.
 2. Make sure to edit `config.json`, after you install the thing then you will need to edit the botDir, port (your not required to), title, and name. (mySQL options are useless for now and won't work for a while)
 3. You will need the `aaa_wrexmods_dependencies_MOD.js` mod to use the `Start Server` action, which should be on here https://github.com/Discord-Bot-Maker-Mods/DBM-Mods
