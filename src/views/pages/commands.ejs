@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head', {title:title}); %>
+    <body>
+        <center>
+            <%- include('../partials/navbar'); %>
+            <% cmds.forEach((item) => { %>
+                <%- include('../partials/command', {name:item.name,perms:item.perms}); %>
+            <% }); %>
+        </center>
+    </body>
+</html>

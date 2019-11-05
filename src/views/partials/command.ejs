@@ -1,0 +1,21 @@
+<div class="ui card" style="display: inline-block;">
+  <div class="content">
+    <a class="header"><%= name %></a>
+    <div class="description">
+    Descriptions don't exist yet.
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="exclamation icon"></i>
+      Requires permissions: 
+      <% if(Array.isArray(perms)) { %>
+        <% perms.forEach((item) => { %>
+          <p><%= item %></p>
+        <% }); %>
+      <% } else { %>
+        <p><%= perms %></p>
+      <% } %>
+    </a>
+  </div>
+</div>
