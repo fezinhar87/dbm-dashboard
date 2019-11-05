@@ -1,0 +1,31 @@
+{
+  "name": "dbm-dashboard",
+  "version": "1.0.0",
+  "description": "fs",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashima-dot-com/dbm-dashboard.git"
+  },
+  "keywords": [
+    "discord-bot-maker",
+    "discord",
+    "json",
+    "express",
+    "ejs"
+  ],
+  "author": "kashima-dot-com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kashima-dot-com/dbm-dashboard/issues"
+  },
+  "homepage": "https://github.com/kashima-dot-com/dbm-dashboard#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "forever": "^1.0.0"
+  }
+}

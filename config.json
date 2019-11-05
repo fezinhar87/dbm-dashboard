@@ -1,0 +1,11 @@
+{
+    "botDir": "C:\\users\\example\\example_bot",
+    "port": 3000,
+    "title": "Example Bot | Another Discord bot.",
+    "name": "Example Bot",
+    "mySQL": {
+        "host": "localhost",
+        "user": "root",
+        "pass": "123"
+    }
+}
